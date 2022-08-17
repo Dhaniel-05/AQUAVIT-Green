@@ -1,0 +1,97 @@
+C:\Users\dhany\Desktop\Sotware NET\Agua\Agua\bin\Debug\Agua.exe.config
+C:\Users\dhany\Desktop\Sotware NET\Agua\Agua\bin\Debug\Agua.exe
+C:\Users\dhany\Desktop\Sotware NET\Agua\Agua\bin\Debug\Agua.pdb
+C:\Users\dhany\Desktop\Sotware NET\Agua\Agua\obj\Debug\Agua.csproj.AssemblyReference.cache
+C:\Users\dhany\Desktop\Sotware NET\Agua\Agua\obj\Debug\Agua.csproj.SuggestedBindingRedirects.cache
+C:\Users\dhany\Desktop\Sotware NET\Agua\Agua\obj\Debug\Agua.Login.resources
+C:\Users\dhany\Desktop\Sotware NET\Agua\Agua\obj\Debug\Agua.Properties.Resources.resources
+C:\Users\dhany\Desktop\Sotware NET\Agua\Agua\obj\Debug\Agua.csproj.GenerateResource.cache
+C:\Users\dhany\Desktop\Sotware NET\Agua\Agua\obj\Debug\Agua.csproj.CoreCompileInputs.cache
+C:\Users\dhany\Desktop\Sotware NET\Agua\Agua\obj\Debug\Agua.exe
+C:\Users\dhany\Desktop\Sotware NET\Agua\Agua\obj\Debug\Agua.pdb
+C:\Users\dhany\Desktop\Sotware NET\Agua\Agua\obj\Debug\Agua.Clientes.resources
+C:\Users\dhany\Desktop\Sotware NET\Agua\Agua\obj\Debug\Agua.Acerca.resources
+C:\Users\dhany\Desktop\Sotware NET\Agua\Agua\obj\Debug\Agua.Reportes.resources
+C:\Users\dhany\Desktop\Sotware NET\Agua\Agua\obj\Debug\Agua.Usuarios.resources
+C:\Users\dhany\Desktop\Sotware NET\Agua\Agua\obj\Debug\Agua.Menu.resources
+C:\Users\dhany\Desktop\Agua Ejemplo\Agua\bin\Debug\Agua.exe.config
+C:\Users\dhany\Desktop\Agua Ejemplo\Agua\bin\Debug\Agua.exe
+C:\Users\dhany\Desktop\Agua Ejemplo\Agua\bin\Debug\Agua.pdb
+C:\Users\dhany\Desktop\Agua Ejemplo\Agua\obj\Debug\Agua.csproj.AssemblyReference.cache
+C:\Users\dhany\Desktop\Agua Ejemplo\Agua\obj\Debug\Agua.csproj.SuggestedBindingRedirects.cache
+C:\Users\dhany\Desktop\Agua Ejemplo\Agua\obj\Debug\Agua.Clientes.resources
+C:\Users\dhany\Desktop\Agua Ejemplo\Agua\obj\Debug\Agua.Acerca.resources
+C:\Users\dhany\Desktop\Agua Ejemplo\Agua\obj\Debug\Agua.Reportes.resources
+C:\Users\dhany\Desktop\Agua Ejemplo\Agua\obj\Debug\Agua.Usuarios.resources
+C:\Users\dhany\Desktop\Agua Ejemplo\Agua\obj\Debug\Agua.Menu.resources
+C:\Users\dhany\Desktop\Agua Ejemplo\Agua\obj\Debug\Agua.Login.resources
+C:\Users\dhany\Desktop\Agua Ejemplo\Agua\obj\Debug\Agua.Properties.Resources.resources
+C:\Users\dhany\Desktop\Agua Ejemplo\Agua\obj\Debug\Agua.csproj.GenerateResource.cache
+C:\Users\dhany\Desktop\Agua Ejemplo\Agua\obj\Debug\Agua.csproj.CoreCompileInputs.cache
+C:\Users\dhany\Desktop\Agua Ejemplo\Agua\obj\Debug\Agua.exe
+C:\Users\dhany\Desktop\Agua Ejemplo\Agua\obj\Debug\Agua.pdb
+C:\Users\dhany\Desktop\Sotware NET\Agua Ejemplo\Agua\bin\Debug\Agua.exe.config
+C:\Users\dhany\Desktop\Sotware NET\Agua Ejemplo\Agua\bin\Debug\Agua.exe
+C:\Users\dhany\Desktop\Sotware NET\Agua Ejemplo\Agua\bin\Debug\Agua.pdb
+C:\Users\dhany\Desktop\Sotware NET\Agua Ejemplo\Agua\obj\Debug\Agua.csproj.AssemblyReference.cache
+C:\Users\dhany\Desktop\Sotware NET\Agua Ejemplo\Agua\obj\Debug\Agua.csproj.SuggestedBindingRedirects.cache
+C:\Users\dhany\Desktop\Sotware NET\Agua Ejemplo\Agua\obj\Debug\Agua.Clientes.resources
+C:\Users\dhany\Desktop\Sotware NET\Agua Ejemplo\Agua\obj\Debug\Agua.Acerca.resources
+C:\Users\dhany\Desktop\Sotware NET\Agua Ejemplo\Agua\obj\Debug\Agua.Reportes.resources
+C:\Users\dhany\Desktop\Sotware NET\Agua Ejemplo\Agua\obj\Debug\Agua.Usuarios.resources
+C:\Users\dhany\Desktop\Sotware NET\Agua Ejemplo\Agua\obj\Debug\Agua.Menu.resources
+C:\Users\dhany\Desktop\Sotware NET\Agua Ejemplo\Agua\obj\Debug\Agua.Login.resources
+C:\Users\dhany\Desktop\Sotware NET\Agua Ejemplo\Agua\obj\Debug\Agua.Properties.Resources.resources
+C:\Users\dhany\Desktop\Sotware NET\Agua Ejemplo\Agua\obj\Debug\Agua.csproj.GenerateResource.cache
+C:\Users\dhany\Desktop\Sotware NET\Agua Ejemplo\Agua\obj\Debug\Agua.csproj.CoreCompileInputs.cache
+C:\Users\dhany\Desktop\Sotware NET\Agua Ejemplo\Agua\obj\Debug\Agua.exe
+C:\Users\dhany\Desktop\Sotware NET\Agua Ejemplo\Agua\obj\Debug\Agua.pdb
+C:\Users\dhany\Desktop\Sotware NET\AQUAVIT\Agua\bin\Debug\Agua.exe.config
+C:\Users\dhany\Desktop\Sotware NET\AQUAVIT\Agua\bin\Debug\Agua.exe
+C:\Users\dhany\Desktop\Sotware NET\AQUAVIT\Agua\bin\Debug\Agua.pdb
+C:\Users\dhany\Desktop\Sotware NET\AQUAVIT\Agua\obj\Debug\Agua.csproj.AssemblyReference.cache
+C:\Users\dhany\Desktop\Sotware NET\AQUAVIT\Agua\obj\Debug\Agua.csproj.SuggestedBindingRedirects.cache
+C:\Users\dhany\Desktop\Sotware NET\AQUAVIT\Agua\obj\Debug\Agua.Clientes.resources
+C:\Users\dhany\Desktop\Sotware NET\AQUAVIT\Agua\obj\Debug\Agua.Acerca.resources
+C:\Users\dhany\Desktop\Sotware NET\AQUAVIT\Agua\obj\Debug\Agua.Reportes.resources
+C:\Users\dhany\Desktop\Sotware NET\AQUAVIT\Agua\obj\Debug\Agua.Usuarios.resources
+C:\Users\dhany\Desktop\Sotware NET\AQUAVIT\Agua\obj\Debug\Agua.Menu.resources
+C:\Users\dhany\Desktop\Sotware NET\AQUAVIT\Agua\obj\Debug\Agua.Login.resources
+C:\Users\dhany\Desktop\Sotware NET\AQUAVIT\Agua\obj\Debug\Agua.Properties.Resources.resources
+C:\Users\dhany\Desktop\Sotware NET\AQUAVIT\Agua\obj\Debug\Agua.csproj.GenerateResource.cache
+C:\Users\dhany\Desktop\Sotware NET\AQUAVIT\Agua\obj\Debug\Agua.csproj.CoreCompileInputs.cache
+C:\Users\dhany\Desktop\Sotware NET\AQUAVIT\Agua\obj\Debug\Agua.exe
+C:\Users\dhany\Desktop\Sotware NET\AQUAVIT\Agua\obj\Debug\Agua.pdb
+C:\AQUAVIT\Agua\bin\Debug\Agua.exe.config
+C:\AQUAVIT\Agua\bin\Debug\Agua.exe
+C:\AQUAVIT\Agua\bin\Debug\Agua.pdb
+C:\AQUAVIT\Agua\obj\Debug\Agua.csproj.AssemblyReference.cache
+C:\AQUAVIT\Agua\obj\Debug\Agua.csproj.SuggestedBindingRedirects.cache
+C:\AQUAVIT\Agua\obj\Debug\Agua.Clientes.resources
+C:\AQUAVIT\Agua\obj\Debug\Agua.Acerca.resources
+C:\AQUAVIT\Agua\obj\Debug\Agua.Reportes.resources
+C:\AQUAVIT\Agua\obj\Debug\Agua.Usuarios.resources
+C:\AQUAVIT\Agua\obj\Debug\Agua.Menu.resources
+C:\AQUAVIT\Agua\obj\Debug\Agua.Login.resources
+C:\AQUAVIT\Agua\obj\Debug\Agua.Properties.Resources.resources
+C:\AQUAVIT\Agua\obj\Debug\Agua.csproj.GenerateResource.cache
+C:\AQUAVIT\Agua\obj\Debug\Agua.csproj.CoreCompileInputs.cache
+C:\AQUAVIT\Agua\obj\Debug\Agua.exe
+C:\AQUAVIT\Agua\obj\Debug\Agua.pdb
+C:\AQUAVIT\Agua\obj\Debug\Agua.AgregarUsuarios.resources
+C:\AQUAVIT-Green\Agua\bin\Debug\Agua.exe.config
+C:\AQUAVIT-Green\Agua\bin\Debug\Agua.exe
+C:\AQUAVIT-Green\Agua\bin\Debug\Agua.pdb
+C:\AQUAVIT-Green\Agua\obj\Debug\Agua.csproj.AssemblyReference.cache
+C:\AQUAVIT-Green\Agua\obj\Debug\Agua.AgregarUsuarios.resources
+C:\AQUAVIT-Green\Agua\obj\Debug\Agua.Acerca.resources
+C:\AQUAVIT-Green\Agua\obj\Debug\Agua.Reportes.resources
+C:\AQUAVIT-Green\Agua\obj\Debug\Agua.Usuarios.resources
+C:\AQUAVIT-Green\Agua\obj\Debug\Agua.Menu.resources
+C:\AQUAVIT-Green\Agua\obj\Debug\Agua.Login.resources
+C:\AQUAVIT-Green\Agua\obj\Debug\Agua.Properties.Resources.resources
+C:\AQUAVIT-Green\Agua\obj\Debug\Agua.csproj.GenerateResource.cache
+C:\AQUAVIT-Green\Agua\obj\Debug\Agua.csproj.CoreCompileInputs.cache
+C:\AQUAVIT-Green\Agua\obj\Debug\Agua.exe
+C:\AQUAVIT-Green\Agua\obj\Debug\Agua.pdb
+C:\AQUAVIT-Green\Agua\obj\Debug\Agua.EditarUsuarios.resources
