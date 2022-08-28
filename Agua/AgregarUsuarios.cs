@@ -79,6 +79,13 @@ namespace Agua
 
         private void BtnAgregar_Click(object sender, EventArgs e)
         {
+            string x = (string)this.usuariosTableAdapter.ValidarDocumento(this.Cedula.Text);
+            if(!(string.IsNullOrEmpty(x)))
+            {
+                MessageBox.Show("El número de documento ya existe", "Notificación");
+            }
+            else
+            {
             if (Fotografia.Image == null)
             {
                 MessageBox.Show("Agrege una foto", "Notificación");
@@ -118,6 +125,7 @@ namespace Agua
                 
             }
         }
+    }
 
         private void Nombres_KeyPress(object sender, KeyPressEventArgs e)
         {

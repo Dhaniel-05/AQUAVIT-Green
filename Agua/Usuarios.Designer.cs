@@ -30,6 +30,8 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Usuarios));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.BtnSalir = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -48,10 +50,11 @@
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.Buscar = new System.Windows.Forms.ToolStripTextBox();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.BtnImprimir = new System.Windows.Forms.ToolStripButton();
+            this.ImprimirUsuarios = new System.Windows.Forms.ToolStripButton();
             this.usuariosBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
+            this.usuariosBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.dataSet = new Agua.DataSet();
             this.usuariosDataGridView = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -59,16 +62,15 @@
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.usuariosBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.dataSet = new Agua.DataSet();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tableAdapterManager = new Agua.DataSetTableAdapters.TableAdapterManager();
             this.usuariosTableAdapter = new Agua.DataSetTableAdapters.UsuariosTableAdapter();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.usuariosBindingNavigator)).BeginInit();
             this.usuariosBindingNavigator.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.usuariosDataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.usuariosBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.usuariosDataGridView)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -222,14 +224,15 @@
             this.toolStripSeparator2.Name = "toolStripSeparator2";
             this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
             // 
-            // BtnImprimir
+            // ImprimirUsuarios
             // 
-            this.BtnImprimir.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.BtnImprimir.Image = ((System.Drawing.Image)(resources.GetObject("BtnImprimir.Image")));
-            this.BtnImprimir.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.BtnImprimir.Name = "BtnImprimir";
-            this.BtnImprimir.Size = new System.Drawing.Size(23, 22);
-            this.BtnImprimir.Text = "Imprimir";
+            this.ImprimirUsuarios.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.ImprimirUsuarios.Image = ((System.Drawing.Image)(resources.GetObject("ImprimirUsuarios.Image")));
+            this.ImprimirUsuarios.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.ImprimirUsuarios.Name = "ImprimirUsuarios";
+            this.ImprimirUsuarios.Size = new System.Drawing.Size(23, 22);
+            this.ImprimirUsuarios.Text = "Imprimir";
+            this.ImprimirUsuarios.Click += new System.EventHandler(this.ImprimirUsuarios_Click);
             // 
             // usuariosBindingNavigator
             // 
@@ -253,7 +256,7 @@
             this.toolStripSeparator1,
             this.Buscar,
             this.toolStripSeparator2,
-            this.BtnImprimir});
+            this.ImprimirUsuarios});
             this.usuariosBindingNavigator.Location = new System.Drawing.Point(0, 25);
             this.usuariosBindingNavigator.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
             this.usuariosBindingNavigator.MoveLastItem = this.bindingNavigatorMoveLastItem;
@@ -264,6 +267,16 @@
             this.usuariosBindingNavigator.Size = new System.Drawing.Size(674, 25);
             this.usuariosBindingNavigator.TabIndex = 1;
             this.usuariosBindingNavigator.Text = "bindingNavigator1";
+            // 
+            // usuariosBindingSource
+            // 
+            this.usuariosBindingSource.DataMember = "Usuarios";
+            this.usuariosBindingSource.DataSource = this.dataSet;
+            // 
+            // dataSet
+            // 
+            this.dataSet.DataSetName = "DataSet";
+            this.dataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // usuariosDataGridView
             // 
@@ -291,19 +304,16 @@
             this.usuariosDataGridView.TabIndex = 2;
             this.usuariosDataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.usuariosDataGridView_CellClick);
             // 
-            // Column1
-            // 
-            this.Column1.DataPropertyName = "IdUsuario";
-            this.Column1.HeaderText = "Column1";
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
-            // 
             // dataGridViewTextBoxColumn1
             // 
             this.dataGridViewTextBoxColumn1.DataPropertyName = "IdUsuario";
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.MediumSeaGreen;
+            this.dataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridViewTextBoxColumn1.HeaderText = "IdUsuario";
             this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
             this.dataGridViewTextBoxColumn1.ReadOnly = true;
+            this.dataGridViewTextBoxColumn1.Visible = false;
             // 
             // dataGridViewImageColumn1
             // 
@@ -316,6 +326,8 @@
             // dataGridViewTextBoxColumn2
             // 
             this.dataGridViewTextBoxColumn2.DataPropertyName = "Documento";
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
+            this.dataGridViewTextBoxColumn2.DefaultCellStyle = dataGridViewCellStyle4;
             this.dataGridViewTextBoxColumn2.HeaderText = "Documento";
             this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
             this.dataGridViewTextBoxColumn2.ReadOnly = true;
@@ -348,16 +360,15 @@
             this.dataGridViewTextBoxColumn6.HeaderText = "Password";
             this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
             this.dataGridViewTextBoxColumn6.ReadOnly = true;
+            this.dataGridViewTextBoxColumn6.Visible = false;
             // 
-            // usuariosBindingSource
+            // Column1
             // 
-            this.usuariosBindingSource.DataMember = "Usuarios";
-            this.usuariosBindingSource.DataSource = this.dataSet;
-            // 
-            // dataSet
-            // 
-            this.dataSet.DataSetName = "DataSet";
-            this.dataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            this.Column1.DataPropertyName = "IdUsuario";
+            this.Column1.HeaderText = "Column1";
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            this.Column1.Visible = false;
             // 
             // tableAdapterManager
             // 
@@ -380,7 +391,6 @@
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Usuarios";
-            this.Opacity = 0.8D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Usuarios";
             this.Load += new System.EventHandler(this.Usuarios_Load);
@@ -389,9 +399,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.usuariosBindingNavigator)).EndInit();
             this.usuariosBindingNavigator.ResumeLayout(false);
             this.usuariosBindingNavigator.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.usuariosDataGridView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.usuariosBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.usuariosDataGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -419,7 +429,7 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripTextBox Buscar;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
-        private System.Windows.Forms.ToolStripButton BtnImprimir;
+        private System.Windows.Forms.ToolStripButton ImprimirUsuarios;
         private System.Windows.Forms.BindingNavigator usuariosBindingNavigator;
         private DataSetTableAdapters.UsuariosTableAdapter usuariosTableAdapter;
         private DataSetTableAdapters.TableAdapterManager tableAdapterManager;

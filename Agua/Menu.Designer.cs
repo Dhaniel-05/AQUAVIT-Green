@@ -37,21 +37,21 @@
             this.BtnReportes = new System.Windows.Forms.Button();
             this.BtnCalcular = new System.Windows.Forms.Button();
             this.BtnUsuarios = new System.Windows.Forms.Button();
-            this.PanelContenedor = new System.Windows.Forms.Panel();
-            this.Logotipo = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.BtnRestaurar = new System.Windows.Forms.PictureBox();
             this.BtnMinimizar = new System.Windows.Forms.PictureBox();
             this.BtnMaximizar = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.PanelContenedor = new System.Windows.Forms.Panel();
+            this.Logotipo = new System.Windows.Forms.PictureBox();
             this.PanelMenuVertical.SuspendLayout();
-            this.PanelContenedor.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Logotipo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BtnRestaurar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BtnMinimizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BtnMaximizar)).BeginInit();
             this.panel1.SuspendLayout();
+            this.PanelContenedor.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Logotipo)).BeginInit();
             this.SuspendLayout();
             // 
             // PanelMenuVertical
@@ -203,28 +203,6 @@
             this.BtnUsuarios.UseVisualStyleBackColor = false;
             this.BtnUsuarios.Click += new System.EventHandler(this.BtnUsuarios_Click);
             // 
-            // PanelContenedor
-            // 
-            this.PanelContenedor.Controls.Add(this.Logotipo);
-            this.PanelContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PanelContenedor.Location = new System.Drawing.Point(140, 30);
-            this.PanelContenedor.Name = "PanelContenedor";
-            this.PanelContenedor.Size = new System.Drawing.Size(530, 400);
-            this.PanelContenedor.TabIndex = 3;
-            // 
-            // Logotipo
-            // 
-            this.Logotipo.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Logotipo.Image = ((System.Drawing.Image)(resources.GetObject("Logotipo.Image")));
-            this.Logotipo.Location = new System.Drawing.Point(94, 60);
-            this.Logotipo.Name = "Logotipo";
-            this.Logotipo.Size = new System.Drawing.Size(341, 281);
-            this.Logotipo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.Logotipo.TabIndex = 0;
-            this.Logotipo.TabStop = false;
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -290,6 +268,28 @@
             this.panel1.Size = new System.Drawing.Size(670, 30);
             this.panel1.TabIndex = 0;
             // 
+            // PanelContenedor
+            // 
+            this.PanelContenedor.Controls.Add(this.Logotipo);
+            this.PanelContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PanelContenedor.Location = new System.Drawing.Point(140, 30);
+            this.PanelContenedor.Name = "PanelContenedor";
+            this.PanelContenedor.Size = new System.Drawing.Size(530, 400);
+            this.PanelContenedor.TabIndex = 4;
+            // 
+            // Logotipo
+            // 
+            this.Logotipo.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Logotipo.Image = ((System.Drawing.Image)(resources.GetObject("Logotipo.Image")));
+            this.Logotipo.Location = new System.Drawing.Point(94, 60);
+            this.Logotipo.Name = "Logotipo";
+            this.Logotipo.Size = new System.Drawing.Size(341, 281);
+            this.Logotipo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.Logotipo.TabIndex = 0;
+            this.Logotipo.TabStop = false;
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -300,17 +300,16 @@
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Menu";
-            this.Opacity = 0.8D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu";
             this.PanelMenuVertical.ResumeLayout(false);
-            this.PanelContenedor.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.Logotipo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BtnRestaurar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BtnMinimizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BtnMaximizar)).EndInit();
             this.panel1.ResumeLayout(false);
+            this.PanelContenedor.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Logotipo)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -324,12 +323,12 @@
         private System.Windows.Forms.Button BtnCalcular;
         private System.Windows.Forms.Button BtnUsuarios;
         private System.Windows.Forms.Button BtnMenu;
-        private System.Windows.Forms.Panel PanelContenedor;
-        private System.Windows.Forms.PictureBox Logotipo;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox BtnRestaurar;
         private System.Windows.Forms.PictureBox BtnMinimizar;
         private System.Windows.Forms.PictureBox BtnMaximizar;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel PanelContenedor;
+        private System.Windows.Forms.PictureBox Logotipo;
     }
 }

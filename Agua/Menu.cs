@@ -60,7 +60,8 @@ namespace Agua
 
         private void BtnClientes_Click(object sender, EventArgs e)
         {
-            AbrirFormHijo(new EditarUsuarios());
+            // AbrirFormHijo(new EditarUsuarios()); llamar el formulario clientes y borrar editar usuarios
+
         }
 
         private void BtnProcesar_Click(object sender, EventArgs e)
@@ -75,7 +76,7 @@ namespace Agua
 
         private void button3_Click(object sender, EventArgs e)
         {
-            AbrirFormHijo(new Reportes());
+            AbrirFormHijo(new Propietario());
         }
 
         private void button4_Click(object sender, EventArgs e)

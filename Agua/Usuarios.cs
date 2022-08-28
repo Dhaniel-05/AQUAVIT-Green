@@ -86,5 +86,28 @@ namespace Agua
             }
             Globalidad.DocUsuario = string.Empty;
         }
+
+        private void ImprimirUsuarios_Click(object sender, EventArgs e)
+        {
+            Cursor.Current = Cursors.WaitCursor;
+
+            //Crea una instancia del reporte de crystal 
+            CrystalUsuarios reporte = new CrystalUsuarios();
+
+            //Llenamos el table Adapter con la propiedad fill
+            this.usuariosTableAdapter.TodosLosRegistros(this.dataSet.Usuarios);
+
+            //Asignamos los datos al reporte a través del método SetDataSource()
+            reporte.SetDataSource(this.dataSet);
+
+            Cursor.Current = Cursors.Default;
+
+            //Asignamos reporte al crystal report view
+            ReportPrint rp = new ReportPrint();
+            rp.crystalReportViewer1.ReportSource = reporte;
+            rp.ShowDialog();
+            rp.Close();
+            
+        }
     }
 }
