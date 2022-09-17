@@ -85,11 +85,11 @@
       <DependentUpon>DataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="Globalidad.cs" />
-    <Compile Include="Propietario.cs">
+    <Compile Include="ClientesMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Propietario.Designer.cs">
-      <DependentUpon>Propietario.cs</DependentUpon>
+    <Compile Include="ClientesMenu.Designer.cs">
+      <DependentUpon>ClientesMenu.cs</DependentUpon>
     </Compile>
     <Compile Include="ReportPrint.cs">
       <SubType>Form</SubType>
@@ -130,8 +130,8 @@
     <EmbeddedResource Include="Acerca.resx">
       <DependentUpon>Acerca.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Propietario.resx">
-      <DependentUpon>Propietario.cs</DependentUpon>
+    <EmbeddedResource Include="ClientesMenu.resx">
+      <DependentUpon>ClientesMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ReportPrint.resx">
       <DependentUpon>ReportPrint.cs</DependentUpon>

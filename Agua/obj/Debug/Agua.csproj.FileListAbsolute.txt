@@ -115,4 +115,4 @@ C:\AQUAVIT-Green\Agua\bin\Debug\stdole.dll
 C:\AQUAVIT-Green\Agua\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
 C:\AQUAVIT-Green\Agua\obj\Debug\Agua.csproj.CopyComplete
 C:\AQUAVIT-Green\Agua\obj\Debug\Agua.ReportPrint.resources
-C:\AQUAVIT-Green\Agua\obj\Debug\Agua.Propietario.resources
+C:\AQUAVIT-Green\Agua\obj\Debug\Agua.ClientesMenu.resources
