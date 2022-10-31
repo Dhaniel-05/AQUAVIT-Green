@@ -104,7 +104,8 @@
             this.BtnClientes.Name = "BtnClientes";
             this.BtnClientes.Size = new System.Drawing.Size(137, 40);
             this.BtnClientes.TabIndex = 5;
-            this.BtnClientes.Text = "Clientes";
+            this.BtnClientes.Text = "Propietarios";
+            this.BtnClientes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BtnClientes.UseVisualStyleBackColor = false;
             this.BtnClientes.Click += new System.EventHandler(this.BtnClientes_Click);
             // 

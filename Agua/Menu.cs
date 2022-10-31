@@ -55,12 +55,12 @@ namespace Agua
 
         private void BtnUsuarios_Click(object sender, EventArgs e)
         {
-            AbrirFormHijo(new Usuarios());
+            AbrirFormHijo(new UsuariosMenu());
         }
 
         private void BtnClientes_Click(object sender, EventArgs e)
         {
-            AbrirFormHijo(new ClientesMenu());
+            AbrirFormHijo(new PropietariosMenu());
 
         }
 

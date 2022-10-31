@@ -57,36 +57,13 @@ namespace Agua
             e.Handled = true;
         }
 
-        private void BtnElimFoto_Click(object sender, EventArgs e)
-        {
-            this.Fotografia.Image = null;
-        }
-
-        private void BtnBuscarFoto_Click(object sender, EventArgs e)
-        {
-            this.openFileDialog1.Filter = "Imagenes|*.jpg;* .jpeg;* .png;* .gif;* .tif";
-            if (this.openFileDialog1.ShowDialog() == System.Windows.Forms.DialogResult.Cancel)
-            {
-                return;
-            }
-            else
-            {
-                this.Fotografia.Image = Image.FromFile(this.openFileDialog1.FileName);
-            }
-        }
-
         private void BtnEditar_Click(object sender, EventArgs e)
         {
             string doc = (string)this.usuariosTableAdapter.ValidarDocumento(this.Cedula.Text);
 
             if (string.IsNullOrEmpty(doc) || this.Cedula.Text == Globalidad.DocActual)
             {
-                if (Fotografia.Image == null)
-                {
-                    MessageBox.Show("Agrege una foto", "Notificación");
-
-                }
-                else if (string.IsNullOrEmpty(this.Cedula.Text))
+                if (string.IsNullOrEmpty(this.Cedula.Text))
                 {
                     MessageBox.Show("Digite la cédula", "Notificación");
                     this.Cedula.Focus();
@@ -117,8 +94,7 @@ namespace Agua
                     {
                         this.Contraseña.Text = Globalidad.Encriptar(this.Contraseña.Text);
 
-                        this.usuariosTableAdapter.EditarUsuarios(Globalidad.Convertir_Imagen_Bytes(this.Fotografia.Image),
-                            this.Cedula.Text, this.Nombres.Text, this.Usuario.Text, this.Roles.Text, this.Contraseña.Text,
+                        this.usuariosTableAdapter.EditarUsuarios (this.Cedula.Text, this.Nombres.Text, this.Usuario.Text, this.Roles.Text, this.Contraseña.Text,
                             Convert.ToInt32(this.idUsuarioTextBox1.Text));
 
                         Globalidad.DocUsuario = string.Empty;

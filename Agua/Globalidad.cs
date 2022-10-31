@@ -16,6 +16,8 @@ namespace Agua
         static public string DocActual = String.Empty;
         static public string RolLogin = String.Empty;
         static public string UsuarioActual = String.Empty;
+        static public string DocPropietario = string.Empty;
+        static public string DocenUso = string.Empty;
 
         public static byte[] Convertir_Imagen_Bytes(Image img)
         {
@@ -118,12 +120,9 @@ namespace Agua
             tdes.Mode = CipherMode.ECB;
             tdes.Padding = PaddingMode.PKCS7;
 
-            ICryptoTransform cTransform =
-            tdes.CreateDecryptor();
+            ICryptoTransform cTransform = tdes.CreateDecryptor();
 
-            byte[] resultArray =
-            cTransform.TransformFinalBlock(Array_a_Descifrar,
-            0, Array_a_Descifrar.Length);
+            byte[] resultArray = cTransform.TransformFinalBlock(Array_a_Descifrar,0, Array_a_Descifrar.Length);
 
             tdes.Clear();
             //se regresa en forma de cadena

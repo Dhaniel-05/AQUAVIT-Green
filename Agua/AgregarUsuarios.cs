@@ -42,26 +42,6 @@ namespace Agua
             e.Handled = true;
         }
 
-        private void BtnBuscarFoto_Click(object sender, EventArgs e)
-        {
-            this.openFileDialog1.Filter = "Imagenes | *.jpg;* .jpeg;* .png;* .gif; *.tif;";
-            if (openFileDialog1.ShowDialog() == System.Windows.Forms.DialogResult.Cancel)
-            {
-                return;
-            }
-            else
-            {
-                this.Fotografia.Image = Image.FromFile(this.openFileDialog1.FileName);
-            }
-
-
-        }
-
-        private void BtnElimFoto_Click(object sender, EventArgs e)
-        {
-            this.Fotografia.Image = null;
-        }
-
         private void label1_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -84,13 +64,7 @@ namespace Agua
             {
                 MessageBox.Show("El número de documento ya existe", "Notificación");
             }
-            else
-            {
-            if (Fotografia.Image == null)
-            {
-                MessageBox.Show("Agrege una foto", "Notificación");
-
-            } else if (string.IsNullOrEmpty(this.Cedula.Text))
+            else if (string.IsNullOrEmpty(this.Cedula.Text))
             {
                 MessageBox.Show("Digite la cédula", "Notificación");
                 this.Cedula.Focus();
@@ -119,13 +93,12 @@ namespace Agua
             {
                
                     this.Contraseña.Text = Globalidad.Encriptar(this.Contraseña.Text);
-                    this.usuariosTableAdapter.InsertarUsuarios(Globalidad.Convertir_Imagen_Bytes(this.Fotografia.Image), this.Cedula.Text, this.Nombres.Text, this.Usuario.Text, this.Roles.Text, this.Contraseña.Text);
+                    this.usuariosTableAdapter.InsertarUsuarios(this.Cedula.Text, this.Nombres.Text, this.Usuario.Text, this.Roles.Text, this.Contraseña.Text);
                     //Notificacion.ShowBalloonTip(500);
                     MessageBox.Show("Usuario creado con exito");
                 
             }
         }
-    }
 
         private void Nombres_KeyPress(object sender, KeyPressEventArgs e)
         {
